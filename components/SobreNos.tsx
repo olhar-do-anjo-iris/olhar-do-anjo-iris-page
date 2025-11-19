@@ -4,9 +4,9 @@ export default function SobreNos() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Título da seção */}
         <div className="text-center mb-12 md:mb-16">
-          <span className="text-orange-500 font-semibold text-sm md:text-base uppercase tracking-wide">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-orange-500">
             Sobre nós
-          </span>
+          </h2>
         </div>
 
         {/* Card centralizado */}
@@ -14,7 +14,7 @@ export default function SobreNos() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-center">
             {/* Texto à esquerda */}
             <div>
-              <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 mb-6 md:mb-8">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 md:mb-8">
                 Proporcionar acolhimento, carinho e dignidade a crianças
               </h2>
               <p className="text-gray-600 text-base md:text-lg leading-relaxed mb-4">
